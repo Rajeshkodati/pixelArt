@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Pixel Art Maker</h1>
+    <form id='size-items'>
+        GridHeight:
+       <input type='number' name ='height' id ='grid-height' min ='1' value='1' >
+       GridWidth:
+       <input type='number'  name ='width' id ='grid-width'  min ='1' value='1'>
+       <input type ='button' id='btn' value='addItem'>;
+    </form>
+     <input type ='color' name='color' id='color-box'>
+    <h2>create Table</h2>
+    <table id=add-boxes></table>
+    <script src='pixels.js'></script>
+</body>
+</html>
